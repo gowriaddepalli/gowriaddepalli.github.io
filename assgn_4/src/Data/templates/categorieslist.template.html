@@ -1,0 +1,5 @@
+<ul>
+  <li ng-repeat="i in $ctrl.catgs" ui-sref="items({shortname:i.short_name })" >
+    {{ i.short_name }} -- {{i.name}} 
+  </li>
+</ul>
